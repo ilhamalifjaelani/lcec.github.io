@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+.navbar {
+  background-color: #2161ce;
+  border-radius: 6px;
+}
+.nav-link {
+  margin-left: 10px;
+}
+
+.navbar-brand {
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+/* home */
+.workhome {
+  margin-top: 80px;
+  text-align: center;
+  padding: 4rem 1rem;
+  height: 560px;
+}
+
+.workhome h3 {
+  font-size: 28pt;
+  font-family: 'Poppins', sans-serif;
+  color: #2161ce;
+  margin-top: -20px;
+}
+
+.workhome p {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16pt;
+  color: #082948;
+  margin-top: 20px;
+  padding: 6px;
+  opacity: 80%;
+}
+
+.col-lg-6 {
+  margin-top: -110px;
+  text-align: center;
+}
+
+.tombol {
+  border-radius: 40px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+/* akhir home */
+
+/* info panel */
+
+.info-panel {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  margin-top: 60px;
+  background-color: white;
+  padding: 30px;
+}
+
+.info-panel h3 {
+  font-size: 28pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #2161ce;
+  font-family: poppins;
+}
+
+.info-panel p {
+  font-size: 14pt;
+  color: #082948;
+  margin-top: 10px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+/* akhir info panel */
+
+/* about */
+.about {
+  margin-top: 200px;
+  height: 500px;
+  text-align: center;
+}
+
+.about h3 {
+  font-size: 28pt;
+  color: #2161ce;
+  margin-top: 45px;
+}
+
+.about p {
+  font-size: 16pt;
+  margin-top: 20px;
+  color: #082948;
+  font-family: 'Nunito Sans', sans-serif;
+  opacity: 80%;
+}
+
+.busines img {
+  width: 260px;
+  margin-top: 30px;
+}
+/* akhir about */
+
+/* pack */
+.pack {
+  margin-top: -100px;
+  height: 500px;
+  text-align: center;
+}
+
+.pack h3 {
+  font-size: 28pt;
+  color: #2161ce;
+  margin-top: 45px;
+  text-align: center;
+}
+
+.pack p {
+  font-size: 16pt;
+  margin-top: 20px;
+  color: #082948;
+  font-family: 'Nunito Sans', sans-serif;
+  opacity: 80%;
+  text-align: center;
+}
+/* akhir pack */
+
+/* pricing */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  align-items: center;
+}
+
+.pricing-table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: min(1600px, 100%);
+  margin: auto;
+}
+
+.pricing-card {
+  flex: 1;
+  max-width: 360px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  margin: 20px 10px;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  color: #082948;
+  transition: 0.3s linear;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.pricing-card-header {
+  background-color: #fdce00;
+  display: inline-block;
+  color: #ffffff;
+  padding: 12px 30px;
+  border-radius: 0 0 20px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: 0.4s linear;
+  align-items: center;
+}
+
+.pricing-card:hover .pricing-card-header {
+  box-shadow: 0 0 0 26em #2161ce;
+}
+
+.price {
+  font-size: 32px;
+  color: #fdce00;
+  margin: 40px 0;
+  transition: 0.2s linear;
+}
+
+.price p {
+  text-decoration: line-through;
+  text-align: center;
+}
+
+.price sup {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.pricing-card:hover,
+.pricing-card:hover .price {
+  color: #ffffff;
+}
+
+.pricing-card li {
+  font-size: 16px;
+  padding: 10px 0;
+  text-transform: uppercase;
+  text-align: left;
+  margin-left: 60px;
+}
+
+.pricing-card ul {
+  margin-left: -30px;
+}
+
+.order-btn {
+  display: inline-block;
+  margin-bottom: 40px;
+  margin-top: 80px;
+  border: 2px solid #fdce00;
+  padding: 18px 40px;
+  color: #082948;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: 0.3s linear;
+  text-decoration: none;
+}
+
+.order-btn:hover {
+  background-color: #fdce00;
+  color: #ffffff;
+}
+.jarak1 {
+  margin-top: 40px;
+}
+.jarak2 {
+  margin-top: 100px;
+}
+.jarak3 {
+  margin-top: 100px;
+}
+/* akhir pricing */
+
+@media (min-width: 992px) {
+  /* navbar */
+
+  .navbar-brand {
+    font-size: 28pt;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+  .nav-link {
+    margin-left: 39px;
+    margin-right: 10px;
+  }
+
+  /* akhir navbar */
+
+  /* home */
+
+  .workhome {
+    text-align: left;
+    height: 768px;
+    padding-top: 4rem 0 0 0;
+  }
+  .workhome p {
+    font-size: 18pt;
+    color: #082948;
+    margin-top: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  .workhome h3 {
+    font-size: 48pt;
+    font-family: 'Poppins', sans-serif;
+    color: #2161ce;
+  }
+
+  .images {
+    margin-top: -40px;
+    margin-left: 260px;
+    width: 478px;
+  }
+  .col-lg-5 {
+    margin-left: 10px;
+    text-align: left;
+    margin-top: 40px;
+  }
+  .tombol {
+    border-radius: 40px;
+    color: #ffffff;
+    margin-top: 30px;
+  }
+
+  /* akhir home */
+
+  /* info panel */
+
+  .info-panel {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    margin-top: -150px;
+    background-color: white;
+    padding: 30px;
+    height: 180px;
+  }
+  .info-panel h3 {
+    font-size: 32pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #2161ce;
+  }
+  .info-panel p {
+    font-size: 18pt;
+    color: #082948;
+    margin-top: 10px;
+  }
+  /* akhir info panel */
+
+  /* about */
+  .about {
+    margin-top: 160px;
+    height: 768px;
+  }
+
+  .about h3 {
+    font-size: 28pt;
+    color: #2161ce;
+    text-align: left;
+    margin-top: 180px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .about p {
+    font-size: 18pt;
+    margin-top: 30px;
+    text-align: left;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  .busines img {
+    width: 478px;
+    margin-right: -100px;
+    margin-top: 400px;
+  }
+  /* akhir about */
+}
+
+/* pack */
+.pack {
+  margin-top: 240px;
+  height: 200px;
+  text-align: center;
+  height: 768px;
+}
+
+.pack h3 {
+  font-size: 28pt;
+  color: #2161ce;
+  margin-top: 45px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.pack p {
+  font-size: 18pt;
+  margin-top: 20px;
+  color: #082948;
+  font-family: 'Nunito Sans', sans-serif;
+  opacity: 95%;
+}
+
+/* akhir pack */
+
+.pricing-card {
+  flex: 50%;
+}
+
+/* pricing */
+.pric {
+  height: 768px;
+  margin-top: -500px;
+}
+/* akhir pricing */
